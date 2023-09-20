@@ -12,6 +12,7 @@ GEM
     ffi (1.15.5)
     forwardable-extended (2.6.0)
     google-protobuf (3.24.3-x64-mingw-ucrt)
+    http_parser (0.1.3)
     http_parser.rb (0.8.0)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
@@ -33,6 +34,7 @@ GEM
       webrick (~> 1.7)
     jekyll-feed (0.17.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-paginate (1.1.0)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
     jekyll-seo-tag (2.8.0)
@@ -59,8 +61,15 @@ GEM
     rexml (3.2.6)
     rouge (4.1.3)
     safe_yaml (1.0.5)
+    sass (3.7.4)
+      sass-listen (~> 4.0.0)
     sass-embedded (1.67.0-x64-mingw-ucrt)
       google-protobuf (~> 3.23)
+    sass-listen (4.0.0)
+      rb-fsevent (~> 0.9, >= 0.9.4)
+      rb-inotify (~> 0.9, >= 0.9.7)
+    support-for (1.0.7)
+      sass (~> 3.3)
     terminal-table (3.0.2)
       unicode-display_width (>= 1.1.1, < 3)
     unicode-display_width (2.4.2)
@@ -70,10 +79,14 @@ PLATFORMS
   x64-mingw-ucrt
 
 DEPENDENCIES
+  http_parser
   jekyll
   jekyll-feed
+  jekyll-paginate
   jekyll-seo-tag
   jekyll-sitemap
+  support-for
+  webrick (~> 1.7)
 
 BUNDLED WITH
    2.4.19

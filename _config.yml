@@ -2,3 +2,30 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-paginate
+  
+title: Software Developing
+description: About all and nothing
+
+url: https://torszulak.github.io
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+# Header Option
+# header: large
+
+sass:
+    style: compressed
+
+markdown: kramdown
+highlighter: rouge
+paginate: 5
+
+social:
+    github: torszulak
+    linkedin: tomasz-orszulak
+
+# google_analytics: ""
+
+# disqus:
+#    shortname: torszulak
