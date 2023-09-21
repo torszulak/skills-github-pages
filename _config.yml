@@ -4,8 +4,9 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   
-title: Software Developing
-description: About all and nothing
+title: Code Crumbs
+author: Tomasz Orszulak
+description: Blog site for programming knowledge sharing (c#, js, sql)
 
 url: https://torszulak.github.io
 paginate_path: "blog/page:num/"
