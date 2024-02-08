@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Non-obvious behaviors in foreach loop in Javascript"
+title:  "Non-obvious behaviors in Javascript foreach() loop"
 date:   2024-02-07
-description: Breaking and handle async function in as non-obvious behaviors in foreach loop in Javascript;
+description: I believe that you use foreach loop in Javascript, but do you know about two specific behaviors in it?
 ---
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/blog-cells@0.7.1/dist/blog-cells.css" />
 <script src="https://cdn.jsdelivr.net/npm/blog-cells@0.7.1/dist/blog-cells.js"></script>
