@@ -3,6 +3,9 @@ layout: post
 title:  "Few ways to get current directory in .NET"
 date:   2023-11-05
 description: In .NET current directory path can be get in few ways. In this post I want to describe some of them and show how they work in specific cases.
+seo_title: How to get current directory in .NET
+seo_description: In .NET current directory path can be get in few ways. In this post I want to describe some of them and show how they work in specific cases.
+excerpt: In .NET current directory path can be get in few ways. In this post I want to describe some of them and show how they work in specific cases.
 ---
 
 <p class="intro"><span class="dropcap">S</span>ometimes in our application, we need to obtain the current directory path. The purposes for doing so can vary: we might want to find a specific file or even load an external assembly. To achieve this, we have to determine the current location of our running application. .NET provides us with a few ways to do this, but some of them can be tricky in specific cases.</p>
